@@ -1,7 +1,5 @@
 package Animals;
 
-import Animals.Animal;
-
 public class Fish extends Animal {
 
     private int gills;

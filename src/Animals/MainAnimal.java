@@ -1,8 +1,5 @@
 package Animals;
 
-import Animals.Animal;
-import Animals.Dog;
-
 public class MainAnimal {
     public static void main(String[] args) {
         Animal animal = new Animal("Animals.Animal", 1,1,5,4);
