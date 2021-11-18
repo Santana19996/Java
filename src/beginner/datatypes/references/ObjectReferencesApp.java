@@ -30,6 +30,6 @@ public class ObjectReferencesApp {
         System.out.println("Car model with new keyword: " + carTypeWithNewKeyword);
         System.out.println("carType variable equals to carTypeWithNewKeyword: " + carTypeWithNewKeyword.equals(carType));
 
-
+        System.out.println("Hi there");
     }
 }
