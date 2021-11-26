@@ -1,10 +1,10 @@
 public class Main {
-    public static  void main(String[] args){
+    public static void main(String[] args) {
 
 
         int myValue = 10000;
 
-        int myMinIntValue =  Integer.MIN_VALUE;
+        int myMinIntValue = Integer.MIN_VALUE;
         int MyMaxValue = Integer.MAX_VALUE;
         System.out.println("Integer Minimum Value = " + myMinIntValue);
         System.out.println("Integer Minimum Value = " + MyMaxValue);
@@ -34,7 +34,7 @@ public class Main {
         long MyLong = 50000L + 10 * (MyByte + MyShort);
         System.out.println(MyLong);
 
-        int Pounds  = 240;
+        int Pounds = 240;
         double Result = Pounds * 0.4535923;
         System.out.println(Result);
 
@@ -43,18 +43,20 @@ public class Main {
 
         double var1 = 20.00;
         double var2 = 80.00;
-        double var3 = (var1 + var2) *100.00;
+        double var3 = (var1 + var2) * 100.00;
         double theRemainder = var3 % 40.00;
         boolean isTheRemainderZero = theRemainder == 0;
         System.out.println(isTheRemainderZero);
-        if(!isTheRemainderZero){
+        if (!isTheRemainderZero) {
             System.out.println("Got Some Remainder");
         }
+
+
+
+
+
+
     }
-
-
-
-
 }
 
 
