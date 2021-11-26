@@ -45,12 +45,16 @@ public class Main {
         double var2 = 80.00;
         double var3 = (var1 + var2) *100.00;
         double theRemainder = var3 % 40.00;
-        boolean isTheRemainderZero =  (theRemainder == 0) ? true : false;
+        boolean isTheRemainderZero = theRemainder == 0;
         System.out.println(isTheRemainderZero);
         if(!isTheRemainderZero){
             System.out.println("Got Some Remainder");
         }
     }
+
+
+
+
 }
 
 
