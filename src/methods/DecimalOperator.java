@@ -1,3 +1,5 @@
+package methods;
+
 public class DecimalOperator {
     public static boolean areEqualByThreeDecimalPlaces(double myFirstDouble, double mySecondDouble){
         int myFirstCheck = (int)(myFirstDouble * 1000);

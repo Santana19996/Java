@@ -1,3 +1,5 @@
+package methods;
+
 public class ToCentimeterConverter {
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
         if (feet < 0 || inches < 0 || inches > 12) {
