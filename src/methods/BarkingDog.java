@@ -25,6 +25,7 @@ if(hourOfDay < 0 || hourOfDay > 23){
         System.out.println( shouldWakeUp(false,2));
         System.out.println( shouldWakeUp(true,8));
         System.out.println( shouldWakeUp(true,-1));
+
     }
 
 }

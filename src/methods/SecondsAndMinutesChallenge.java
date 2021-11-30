@@ -25,6 +25,7 @@ public class SecondsAndMinutesChallenge {
     public static void main(String[] args) {
         System.out.println(getDurationString(65, 45));
         System.out.println(getDurationString(2400));
+
     }
 
 
