@@ -1,4 +1,4 @@
-package methods;
+package Lectures;
 
 public class IntroToLoops {
     public static void main(String[] args) {
