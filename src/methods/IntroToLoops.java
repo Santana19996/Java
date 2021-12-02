@@ -30,6 +30,21 @@ public class IntroToLoops {
                 }
             }
         }
+
+
+        int secondCount = 0;
+        int sum = 0;
+        for (int i = 1; i <=1000; i++){
+if ((i%3==0) && (i%5==0)){
+    secondCount++;
+    sum +=i;
+    System.out.println("Found number = " + i);
+}
+        if (secondCount==5){
+            break;
+        }
+        }
+            System.out.println("Sum = " + sum);
     }
 
     public static double calculateInterest(double amount, double interestRate) {
@@ -47,4 +62,9 @@ public class IntroToLoops {
         }
         return true;
     }
+
+
+
+
+
 }
