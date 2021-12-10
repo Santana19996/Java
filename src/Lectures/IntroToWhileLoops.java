@@ -1,7 +1,5 @@
 package Lectures;
 
-import methods.IsEvenNumber;
-
 public class IntroToWhileLoops {
 
     public static boolean isEvenNumber(int number) {
