@@ -57,6 +57,4 @@ class Wall {
         System.out.println("area " + wall.getArea());
 
     }
-
-
 }
