@@ -15,8 +15,12 @@ int sum = 0;
         return sum;
     }
 
+
+
+
     public static void main(String[] args) {
         System.out.println(sumDigits(125));
         System.out.println(sumDigits(123));
+
     }
 }
