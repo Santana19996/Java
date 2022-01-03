@@ -1,4 +1,6 @@
-package Lectures;
+package Lectures.Inheritance;
+
+import Lectures.Inheritance.Car;
 
 public class Jeep extends Car {
     private String model;

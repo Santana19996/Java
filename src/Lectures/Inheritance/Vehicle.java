@@ -1,4 +1,4 @@
-package Lectures;
+package Lectures.Inheritance;
 
 public class Vehicle {
    private String name;

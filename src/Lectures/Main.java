@@ -1,5 +1,7 @@
 package Lectures;
 
+import Lectures.Inheritance.Jeep;
+
 public class Main {
 
     public static void main(String[] args) {

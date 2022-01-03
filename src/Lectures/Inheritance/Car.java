@@ -1,6 +1,4 @@
-package Lectures;
-
-import Lectures.Vehicle;
+package Lectures.Inheritance;
 
 public class Car extends Vehicle {
     private int wheels;

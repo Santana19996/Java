@@ -1,4 +1,6 @@
-package Lectures;
+package Lectures.Inheritance;
+
+import Lectures.Inheritance.Car;
 
 public class Outlander extends Car {
     private int roadServiceMonths;
