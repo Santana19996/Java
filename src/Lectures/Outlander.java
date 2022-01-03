@@ -1,7 +1,5 @@
 package Lectures;
 
-import methodsAndChallenges.Car;
-
 public class Outlander extends Car {
     private int roadServiceMonths;
 

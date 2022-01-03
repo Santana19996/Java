@@ -1,4 +1,4 @@
-package methodsAndChallenges;
+package Lectures;
 
 public class Vehicle {
    private String name;

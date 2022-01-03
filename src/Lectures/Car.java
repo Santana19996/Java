@@ -1,6 +1,8 @@
-package methodsAndChallenges;
+package Lectures;
 
-public class Car extends Vehicle{
+import Lectures.Vehicle;
+
+public class Car extends Vehicle {
     private int wheels;
     private int doors;
     private int gears;
