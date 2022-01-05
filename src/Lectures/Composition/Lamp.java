@@ -25,4 +25,6 @@ public class Lamp {
     public int getGlobRating() {
         return globRating;
     }
+
+
 }
