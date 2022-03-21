@@ -1,4 +1,5 @@
 package methodsAndChallenges;
 
-public class Survery {
+public class ChatBot {
+
 }
