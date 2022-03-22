@@ -1,4 +1,4 @@
-package methodsAndChallenges.OopMasterChallenge;
+package methodsAndChallenges;
 
 import java.util.Arrays;
 
