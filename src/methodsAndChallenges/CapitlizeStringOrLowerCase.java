@@ -17,6 +17,10 @@ public class CapitlizeStringOrLowerCase {
         System.out.println(capitolOrLowerCase("Hello", "capitol"));
         System.out.println(capitolOrLowerCase("Hello", "lower"));
         System.out.println(capitolOrLowerCase("Hello", ""));
+
+        double random = Math.random() * 3 +1;
+
+        System.out.println((int)random);
     }
 
 }
