@@ -81,7 +81,7 @@ public class HangmanGameV1 {
                 finished = true;
             }
         }
-        System.out.println("The word was" + hiddenText);
+        System.out.println("The word was " + hiddenText);
     }
 
     public static void drawHangman(int l) {
