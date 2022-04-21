@@ -21,6 +21,7 @@ public class HangmanGameV1 {
 
         ArrayList<String> words = new ArrayList<String>();
         while (textScanner.hasNextLine()) {
+
             words.add(textScanner.nextLine());
         }
         String hiddenText = words.get((int) (Math.random() * words.size()));
