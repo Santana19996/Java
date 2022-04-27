@@ -14,7 +14,7 @@ public class SimpleAudioPlayer {
     public static void main(String[] args) throws UnsupportedAudioFileException, IOException, LineUnavailableException {
         Scanner scanner = new Scanner(System.in);
         File file = new File("data/90sflav.wav");
-
+        System.out.println();
         AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(file);
 
         Clip clip = AudioSystem.getClip();
@@ -49,4 +49,5 @@ public class SimpleAudioPlayer {
         }
         System.out.println("Byeeee!");
     }
+
 }
