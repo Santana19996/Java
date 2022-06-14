@@ -11,7 +11,7 @@ public class JavaPcShutdown {
         String operatingSystem = System.getProperty("os.name");
 
         if ("Linux".equals(operatingSystem) || "Mac OS X".equals(operatingSystem)) {
-            shutdownCommand = "shutdown -h now";
+            shutdownCommand = "sudo shutdown -h now";
         }
         else if ("Windows".equals(operatingSystem)) {
             shutdownCommand = "shutdown.exe -s -t 0";
@@ -27,8 +27,11 @@ public class JavaPcShutdown {
     public static void main(String[] args) throws IOException {
 
 
+        String operatingSystem = System.getProperty("os.name");
+        System.out.println(operatingSystem);
 
-
+        System.out.println(Runtime.getRuntime().exec(" say Shutting Down "));
+        System.out.println(Runtime.getRuntime().exec("sudo shutdown -h now"));
 
 
 
